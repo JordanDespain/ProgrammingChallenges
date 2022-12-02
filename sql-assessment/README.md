@@ -34,10 +34,10 @@ marketing_data contains ad impression and click data by date and location:
 ​
 *  Question #1 
 Generate a query to get the sum of the clicks of the marketing data
-​
+
 >  select sum(clicks) as sum_clicks
 >  from marketing_data;
-​
+
 *  Question #2
  Generate a query to gather the sum of revenue by store_location from the store_revenue table
 ​
@@ -77,7 +77,7 @@ and geo.
 ​
 * Question #4
  In your opinion, what is the most efficient store and why?
-​
+
 I think in regard to the data we have, I would consider an efficient store to be one that is able to successfully turn impressions into clicks and then those clicks into revenue. So, I summed impressions, clicks, and revenue for each location, and then I created a clicks to impressions ratio and a revenue to clicks ratio. The Minnesota store is definitely the best at turning impressions into clicks with a rate over three times more than the other stores. Unfortunately, we do not have the revenue data for the Minnesota store, so we cannot tell whether these clicks turned into revenue or not. The other three locations have similar clicks to impressions ratios, but the California store, by far, has the best revenue to clicks ratio from the group with available data. So, in my opinion, the California store is the most efficient store.
 
 The query I used:
