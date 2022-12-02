@@ -35,8 +35,8 @@ marketing_data contains ad impression and click data by date and location:
 *  Question #1 
 Generate a query to get the sum of the clicks of the marketing data
 ​
-select sum(clicks) as sum_clicks
-from marketing_data;
+>  select sum(clicks) as sum_clicks
+>  from marketing_data;
 ​
 *  Question #2
  Generate a query to gather the sum of revenue by store_location from the store_revenue table
